@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78105F272B61480400BA6A9C /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78105F262B61480400BA6A9C /* CircleGroupView.swift */; };
 		7889AA312B5BFE250036D6D1 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889AA302B5BFE250036D6D1 /* RestartApp.swift */; };
 		7889AA332B5BFE250036D6D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889AA322B5BFE250036D6D1 /* ContentView.swift */; };
 		7889AA352B5BFE270036D6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7889AA342B5BFE270036D6D1 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78105F262B61480400BA6A9C /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		7889AA2D2B5BFE250036D6D1 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7889AA302B5BFE250036D6D1 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		7889AA322B5BFE250036D6D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78105F252B6147ED00BA6A9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78105F262B61480400BA6A9C /* CircleGroupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7889AA242B5BFE250036D6D1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		7889AA2F2B5BFE250036D6D1 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				78105F252B6147ED00BA6A9C /* View */,
 				7889AA472B5C06E00036D6D1 /* Info.plist */,
 				7889AA462B5C02AB0036D6D1 /* Utilities */,
 				7889AA422B5C00C20036D6D1 /* Sounds */,
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78105F272B61480400BA6A9C /* CircleGroupView.swift in Sources */,
 				7889AA492B5C07810036D6D1 /* HomeView.swift in Sources */,
 				7889AA4B2B5C07910036D6D1 /* OnBoardingView.swift in Sources */,
 				7889AA332B5BFE250036D6D1 /* ContentView.swift in Sources */,

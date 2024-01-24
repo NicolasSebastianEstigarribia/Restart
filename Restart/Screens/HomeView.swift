@@ -14,10 +14,14 @@ struct HomeView: View {
         VStack (spacing: 20) {
             // MARK: - HEADER
             Spacer()
-            Image("character-2")
-                .resizable()
-                .scaledToFit()
+            
+            ZStack {
+                CircleGroupView(ShapeColor: Color.red, ShapeOpacity: 0.2)
+                Image("character-2")
+                    .resizable()
+                    .scaledToFit()
                 .padding()
+            }
             Spacer()
             // MARK: - BODY
             Text("El tiempo que lleva a la maestría depende de la intensidad de nuestro enfoque.")
